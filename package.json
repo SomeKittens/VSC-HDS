@@ -1,0 +1,37 @@
+{
+    "name": "hot-dog-stand",
+    "displayName": "Hot Dog Stand",
+    "publisher": "somekittens",
+    "description": "Burn out your eyeballs in 15 seconds!",
+    "version": "6.6.8",
+    "license": "MIT",
+    "scripts": {
+        "prestart": "tsc index.ts",
+        "start": "node index.js"
+    },
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "Hot Dog Stand",
+        "Abominations"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Hot Dog Stand",
+                "uiTheme": "vs-dark",
+                "path": "./theme.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "@types/node": "^7.0.10",
+        "typescript": "^2.2.1",
+        "vscode-theme-generator": "*"
+    }
+}
