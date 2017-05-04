@@ -19,6 +19,10 @@
         "Hot Dog Stand",
         "Abominations"
     ],
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:SomeKittens/VSC-HDS.git"
+    },
     "icon": "icon.png",
     "contributes": {
         "themes": [
